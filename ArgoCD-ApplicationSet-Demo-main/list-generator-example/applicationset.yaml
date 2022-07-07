@@ -20,7 +20,7 @@ spec:
       source:
         repoURL: https://github.com/Emc285/ArgoCD-ApplicationSet-Demo-main.git
         targetRevision: HEAD
-        path: list-generator-example/deployment
+        path: ArgoCD-ApplicationSet-Demo-main/list-generator-example/deployment
       destination:
         # default cluster as destination, you can define multiple clusters in ArgoCD UI
         server: https://kubernetes.default.svc
